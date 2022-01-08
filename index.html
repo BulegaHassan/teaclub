@@ -1,166 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>MUK Tea Club</title>
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="stylesheet" href="styles/normalize.css">
-	<link rel="stylesheet" href="styles/teaclub.css">
-    <link rel="stylesheet" href="styles/slicknav.css">
-    <link rel="stylesheet" href="styles/jquery.bxslider.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/c03708e114.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MUK Tea Club</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/teaclub.css" />
+    <link rel="stylesheet" href="styles/slicknav.css" />
+    <link rel="stylesheet" href="styles/jquery.bxslider.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/c03708e114.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
-	<script type="text/javascript">
-    	$(document).ready(function(){
-			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
-    	});
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#nav_menu").slicknav({ prependTo: "#mobile_menu" });
+      });
     </script>
-</head>
+  </head>
 
-<body>
-	<header>
-		<h2>MUK Tea Club</h2>
-        <img src="images/green_logo.PNG" alt="" class="center">
-        <h4>Fun,get Inspired & Help Others</h4>
-	</header>
+  <body>
+    <header>
+      <h2>MUK Tea Club</h2>
+      <img src="images/green_logo.PNG" alt="" class="center" />
+      <h4>Fun,get Inspired & Help Others</h4>
+    </header>
     <nav id="mobile_menu"></nav>
-	<nav id="nav_menu">
-    	<ul>
-        	<li><a href="index.html" class="current">Home</a></li>
-        	<li><a href="speakers.html">Speakers</a></li>
-        	<li><a href="luncheons.html">Luncheons</a></li>
-        	<li><a href="tickets.html">Tickets</a></li>
-        	<li><a href="aboutus.html">About Us</a></li>
-    	</ul>
-	</nav>
-	<main>
-        <section class="main_image">
-            <img src="images/restaurant-1.jpg" alt="" width="1400">
-        </section>
-        <section class="intro">
-            <div class="start">
-                <h3>Welcome to MUK Tea Club, Makerere University</h3>
-                <ul class="fas">
-                    <li><i  class="fas fa-calendar-check-o"> </i><span> Every Last Thursday of the month</span></li>
-                    <li><i class="fas fa-university"></i> <span>At the college auditoriums</span></li>
-                    <li><i class="fas fa-mug-hot"></i> <span>Tea cuisines from around africa with lots of logistics</span></li>
-                    <li><i class="fas fa-microphone"></i> <span>Insipiring speakers from alumni</span></li>
-                    <li><i class="fas fa-gifts"></i><span> Giving back to the Community</span></li>
-                </ul>
-               
-               </div>
-               <div class="videos">
-                  <!--<video src="videos/Cups - 19159.mp4" width="640" controls autoplay></video>--> 
-                   <video src="videos/Tea - 34971.mp4" controls autoplay ></video>
-                   <video src="videos/Tea - 70330.mp4" controls autoplay ></video>
-                   <video src="videos/Tea - 70333.mp4" controls autoplay></video>
-                   <video src="videos/Coffee - 32641.mp4" controls autoplay></video>
-               </div>
-        </section>
-        
-        <section class="mid">
-            <aside class="details">
-                <div class="why_us">
-                    <h2>Why choose Last Thursday with Us</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In vitae possimus ullam totam facilis, cupiditate animi dolorem exercitationem earum quas dolor quod, ipsa illo nemo nisi necessitatibus numquam culpa fugiat impedit quibusdam perferendis! Consectetur nobis commodi alias!</p>
-                </div>
-                <div class="image">
-                    <img src="images/coffee-2458300_640.jpg" width="100%" height="100%" alt="" class="center">
-                </div>
-                <div class="info">
-                    <div class="specific">
-                        <h3>Tea</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quos itaque cumque blanditiis ipsum, sit inventore illum harum nemo, reiciendis perspiciatis illo quidem.</p>
-                    </div>
-                    <div class="specific">
-                        <h3>Fun</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quos itaque cumque blanditiis ipsum, sit inventore illum harum nemo, reiciendis perspiciatis illo quidem.</p>
-                    </div>
-                    <div class="specific">
-                        <h3>Speakers</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quos itaque cumque blanditiis ipsum, sit inventore illum harum nemo, reiciendis perspiciatis illo quidem.</p>
-                    </div>
-                    <div class="specific">
-                        <h3>Gifts</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quos itaque cumque blanditiis ipsum, sit inventore illum harum nemo, reiciendis perspiciatis illo quidem.</p>
-                    </div>
-                </div>
-                <div class="quote">
-                    <i class="fa fa-quote-left" aria-hidden="true" style="color: gold; font-size: 2em;"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ipsam eos blanditiis at nulla beatae pariatur consequuntur voluptas itaque, accusantium soluta ratione, fugit perferendis fuga? Quaerat voluptate sunt ut quas.</p>
-                    <img src="images/gentleman.jpg" alt="" class="center">
-                    <p id="top">Professor Magezi Bright <br>
-                        Dean Of Students</p>
-                </div>
-            </aside>
-            <aside class="speakers">
-                <h2>Guest speakers</h2>
-                <div id="speakers">
-                <h3>October<br>Mulungi Hassan</h3>
-                <img src="speakers/prof.png" alt="Hassan's photo">
-                <h3>November<br>Mukisa Barack</h3>
-                <img src="speakers/man.png" alt="Mukisa photo">
-                <h3>February<br>Nakimuli Zaharah</h3>
-                <img src="images/muslima.png" alt="rahmas photo">
-                <h3>January<br>Mugagga Fortune</h3>
-                <img src="speakers/male.PNG" alt="Mugagga photo">
-                <h3>March<br>Kirabo Gift</h3>
-                <img src="speakers/female.PNG" alt="gifts photo">
-                </div>
-            </aside>
-         </section>
-         
-        <section class="slideshow">
-            <ul class="slider">
-                <li><img src="images/kettles-2178442_1280.jpg" alt="" title=""></li>
-                <li><img src="images/nathan-dumlao-ozVQrfENFOs-unsplash.jpg" alt="" title=""></li>
-                <li><img src="images/oriento-gy_DN08336U-unsplash.jpg" alt="" title=""></li>
-                <li><img src="images/zach-reiner-K4XHVhJk6kw-unsplash.jpg" alt="" title=""></li>
-            </ul>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam voluptates quasi debitis, quis minus dignissimos praesentium quidem, ipsum voluptatibus nihil corporis error odit ut sunt. Molestias unde cumque expedita provident.</p>
-        </section>
-        
-	</main>
-	<footer>
-        <div class="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Tea and logistics</a></li>
-                <li><a href="#">Speakers</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Community</a></li>
-            </ul>
+    <nav id="nav_menu">
+      <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="speakers.html">Speakers</a></li>
+        <li><a href="luncheons.html">Luncheons</a></li>
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="main_image">
+        <img src="images/restaurant-1.jpg" alt="" width="1400" />
+      </section>
+      <section class="intro">
+        <div class="start">
+          <h3>Welcome to MUK Tea Club, Makerere University</h3>
+          <ul class="fas">
+            <li>
+              <i class="fas fa-calendar-check-o"> </i
+              ><span> Every Last Thursday of the month</span>
+            </li>
+            <li>
+              <i class="fas fa-university"></i>
+              <span>At the college auditoriums</span>
+            </li>
+            <li>
+              <i class="fas fa-mug-hot"></i>
+              <span
+                >Tea cuisines from around africa with lots of logistics</span
+              >
+            </li>
+            <li>
+              <i class="fas fa-microphone"></i>
+              <span>Insipiring speakers from alumni</span>
+            </li>
+            <li>
+              <i class="fas fa-gifts"></i
+              ><span> Giving back to the Community</span>
+            </li>
+          </ul>
         </div>
-        <div class="contacts">
-            <h3>Contacts</h3>
-            
-           <p><i class="fas fa-location-arrow"></i> Plot 235,Makerere</p> 
-           <p><i class="fas fa-envelope"></i> info@hasgotech.com</p>
-           <p><i class="fas fa-phone"></i> +256759509183</p>
-           <p><i class="fas fa-fax"></i> +1 234 567 8910</p>
-           <div class="mapouter"><div class="gmap_canvas"><iframe width="310" height="150" id="gmap_canvas" src="https://maps.google.com/maps?q=makerere%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br><style>.mapouter{position:relative;text-align:right;height:299px;width:310px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:299px;width:310px;}</style></div></div>
-        </div> 
-        <div class="newsletter">
-           <h3> Subscribe to Our News Letter</h3>
+        <div class="videos">
+          <!--<video src="videos/Cups - 19159.mp4" width="640" controls autoplay></video>-->
+          <video src="videos/Tea - 34971.mp4" controls autoplay></video>
+          <video src="videos/Tea - 70330.mp4" controls autoplay></video>
+          <video src="videos/Tea - 70333.mp4" controls autoplay></video>
+          <video src="videos/Coffee - 32641.mp4" controls autoplay></video>
         </div>
-        <div class="social_posts">
-         <h3>Follow us on Social Media</h3> <br>
-         <a href="https://twitter.com/intent/tweet?screen_name=hassanbulega&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large" data-show-count="false">Tweet to @hassanbulega</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> <br><br>
+      </section>
+
+      <section class="mid">
+        <aside class="details">
+          <div class="why_us">
+            <h2>Why choose Last Thursday with Us</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. In vitae
+              possimus ullam totam facilis, cupiditate animi dolorem
+              exercitationem earum quas dolor quod, ipsa illo nemo nisi
+              necessitatibus numquam culpa fugiat impedit quibusdam perferendis!
+              Consectetur nobis commodi alias!
+            </p>
+          </div>
+          <div class="image">
+            <img
+              src="images/coffee-2458300_640.jpg"
+              width="100%"
+              height="100%"
+              alt=""
+              class="center"
+            />
+          </div>
+          <div class="info">
+            <div class="specific">
+              <h3>Tea</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                quos itaque cumque blanditiis ipsum, sit inventore illum harum
+                nemo, reiciendis perspiciatis illo quidem.
+              </p>
+            </div>
+            <div class="specific">
+              <h3>Fun</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                quos itaque cumque blanditiis ipsum, sit inventore illum harum
+                nemo, reiciendis perspiciatis illo quidem.
+              </p>
+            </div>
+            <div class="specific">
+              <h3>Speakers</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                quos itaque cumque blanditiis ipsum, sit inventore illum harum
+                nemo, reiciendis perspiciatis illo quidem.
+              </p>
+            </div>
+            <div class="specific">
+              <h3>Gifts</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                quos itaque cumque blanditiis ipsum, sit inventore illum harum
+                nemo, reiciendis perspiciatis illo quidem.
+              </p>
+            </div>
+          </div>
+          <div class="quote">
+            <i
+              class="fa fa-quote-left"
+              aria-hidden="true"
+              style="color: gold; font-size: 2em"
+            ></i>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+              ipsam eos blanditiis at nulla beatae pariatur consequuntur
+              voluptas itaque, accusantium soluta ratione, fugit perferendis
+              fuga? Quaerat voluptate sunt ut quas.
+            </p>
+            <img src="images/gentleman.jpg" alt="" class="center" />
+            <p id="top">
+              Professor Magezi Bright <br />
+              Dean Of Students
+            </p>
+          </div>
+        </aside>
+        <aside class="speakers">
+          <h2>Guest speakers</h2>
+          <div id="speakers">
+            <h3>October<br />Mulungi Hassan</h3>
+            <img src="speakers/prof.png" alt="Hassan's photo" />
+            <h3>November<br />Mukisa Barack</h3>
+            <img src="speakers/man.png" alt="Mukisa photo" />
+            <h3>February<br />Nakimuli Zaharah</h3>
+            <img src="images/muslima.png" alt="rahmas photo" />
+            <h3>January<br />Mugagga Fortune</h3>
+            <img src="speakers/male.PNG" alt="Mugagga photo" />
+            <h3>March<br />Kirabo Gift</h3>
+            <img src="speakers/female.PNG" alt="gifts photo" />
+          </div>
+        </aside>
+      </section>
+
+      <section class="slideshow">
+        <ul class="slider">
+          <li><img src="images/kettles-2178442_1280.jpg" alt="" title="" /></li>
+          <li>
+            <img
+              src="images/nathan-dumlao-ozVQrfENFOs-unsplash.jpg"
+              alt=""
+              title=""
+            />
+          </li>
+          <li>
+            <img
+              src="images/oriento-gy_DN08336U-unsplash.jpg"
+              alt=""
+              title=""
+            />
+          </li>
+          <li>
+            <img
+              src="images/zach-reiner-K4XHVhJk6kw-unsplash.jpg"
+              alt=""
+              title=""
+            />
+          </li>
+        </ul>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
+          voluptates quasi debitis, quis minus dignissimos praesentium quidem,
+          ipsum voluptatibus nihil corporis error odit ut sunt. Molestias unde
+          cumque expedita provident.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Tea and logistics</a></li>
+          <li><a href="#">Speakers</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Community</a></li>
+        </ul>
+      </div>
+      <div class="contacts">
+        <h3>Contacts</h3>
+
+        <p><i class="fas fa-location-arrow"></i> Plot 235,Makerere</p>
+        <p><i class="fas fa-envelope"></i> info@hasgotech.com</p>
+        <p><i class="fas fa-phone"></i> +256759509183</p>
+        <p><i class="fas fa-fax"></i> +1 234 567 8910</p>
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="310"
+              height="150"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=makerere%20university&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe
+            ><a
+              href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"
+            ></a
+            ><br /><style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                height: 299px;
+                width: 310px;
+              }</style
+            ><a href="https://www.embedgooglemap.net"></a
+            ><style>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 299px;
+                width: 310px;
+              }
+            </style>
+          </div>
+        </div>
+      </div>
+      <div class="newsletter">
+        <h3>Subscribe to Our News Letter</h3>
+      </div>
+      <div class="social_posts">
+        <h3>Follow us on Social Media</h3>
+        <br />
+        <a
+          href="https://twitter.com/intent/tweet?screen_name=hassanbulega&ref_src=twsrc%5Etfw"
+          class="twitter-mention-button"
+          data-size="large"
+          data-show-count="false"
+          >Tweet to @hassanbulega</a
+        >
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+        <br /><br />
         <span>
-            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
-            <a href="https://www.skype.com/" target="_blank" class="fa fa-skype"></a>
-            <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
-            <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="fa fa-facebook"
+          ></a>
+          <a
+            href="https://www.skype.com/"
+            target="_blank"
+            class="fa fa-skype"
+          ></a>
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            class="fa fa-linkedin"
+          ></a>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            class="fa fa-youtube"
+          ></a>
         </span>
-        </div>
-	</footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"
+      integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script>
-    $(document).ready( () => 
+      $(document).ready(() =>
         $(".slider").bxSlider({
           auto: true,
           autoControls: true,
@@ -170,9 +318,9 @@
           minSlides: 1,
           maxSlides: 1,
           slideWidth: 1125,
-          slideMargin: 10
+          slideMargin: 10,
         })
-    )
+      );
     </script>
-</body>
+  </body>
 </html>
